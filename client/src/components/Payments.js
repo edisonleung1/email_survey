@@ -10,7 +10,7 @@ class Payments extends Component{
         name="Wongchoy"
         description="$1 for 1 surveys"
         amount={100}
-        token={token=> console.log(token)}
+        token={token=> this.props.handleToken(token)}
         stripeKey={process.env.REACT_APP_STRIPE_KEY}
       >
 
