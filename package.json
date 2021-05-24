@@ -14,16 +14,8 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edisonleung1/p1.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edisonleung1/p1/issues"
-  },
-  "homepage": "https://github.com/edisonleung1/p1#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
