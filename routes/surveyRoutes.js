@@ -52,7 +52,6 @@ module.exports=(app)=>{
         }).exec();
       })
       .value();
-    console.log(events);
     res.send({});
 });
   app.post('/api/surveys',requireLogin,requireCredits, async (req,res)=>{

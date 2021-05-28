@@ -4,7 +4,9 @@ import {Link} from'react-router-dom';
 const Dashboard=()=>{
   return(
     <div>
+      <h1 style={{textAlign:'center'}}>
       Dashboard
+      </h1>
       <div className="fixed-action-btn">
         <Link to="/surveys/new" class="btn-floating btn-large red">
           <i className="large material-icons">add</i>
