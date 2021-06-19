@@ -5,6 +5,7 @@ import Payments from './Payments';
 
 class Header extends Component {
   renderContent() {
+
     switch (this.props.auth){
       case null:
         return;
@@ -30,6 +31,7 @@ class Header extends Component {
             >
               Email Survey
             </Link>
+            <ul className="right"> <a href="/about">About</a></ul>
             <ul className="right">
               {this.renderContent()}
             </ul>
